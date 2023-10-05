@@ -1,0 +1,16 @@
+GET https://fakestoreapi.com/products
+
+###
+
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users/verify
+content-type: application/json
+
+{
+    "email": "shiva@gmail.com",
+    "password": "123456789"
+}
+
